@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40751" started-at="2019-12-26T12:37:02 IST" finished-at="2019-12-26T12:37:43 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40751" started-at="2019-12-26T12:37:02 IST" finished-at="2019-12-26T12:37:43 IST">
+      <class name="com.Entry.ChaniAccess">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Entry.ChaniAccess@7f9a81e8]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2019-12-26T12:37:02 IST" finished-at="2019-12-26T12:37:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="insert()[pri:0, instance:com.Entry.ChaniAccess@7f9a81e8]" name="insert" duration-ms="606" started-at="2019-12-26T12:37:02 IST" finished-at="2019-12-26T12:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insert -->
+        <test-method status="PASS" signature="select()[pri:0, instance:com.Entry.ChaniAccess@7f9a81e8]" name="select" duration-ms="1" started-at="2019-12-26T12:37:03 IST" depends-on-methods="com.Entry.ChaniAccess.insert" finished-at="2019-12-26T12:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method status="PASS" signature="update()[pri:0, instance:com.Entry.ChaniAccess@7f9a81e8]" name="update" duration-ms="0" started-at="2019-12-26T12:37:03 IST" depends-on-methods="com.Entry.ChaniAccess.select" finished-at="2019-12-26T12:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:com.Entry.ChaniAccess@7f9a81e8]" name="delete" duration-ms="0" started-at="2019-12-26T12:37:03 IST" depends-on-methods="com.Entry.ChaniAccess.insert, com.Entry.ChaniAccess.update" finished-at="2019-12-26T12:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- com.Entry.ChaniAccess -->
+      <class name="com.Dataprovider.DataInsert">
+        <test-method status="PASS" signature="Adminlogin()[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="Adminlogin" is-config="true" duration-ms="1" started-at="2019-12-26T12:37:02 IST" finished-at="2019-12-26T12:37:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adminlogin -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="login" duration-ms="8000" started-at="2019-12-26T12:37:03 IST" data-provider="providedata" finished-at="2019-12-26T12:37:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fffffffff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="login" duration-ms="8003" started-at="2019-12-26T12:37:11 IST" data-provider="providedata" finished-at="2019-12-26T12:37:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttttttttt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="login" duration-ms="8002" started-at="2019-12-26T12:37:19 IST" data-provider="providedata" finished-at="2019-12-26T12:37:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admdfdfdfdsf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fefdf@%$@$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="login" duration-ms="8001" started-at="2019-12-26T12:37:27 IST" data-provider="providedata" finished-at="2019-12-26T12:37:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="login" duration-ms="8000" started-at="2019-12-26T12:37:35 IST" data-provider="providedata" finished-at="2019-12-26T12:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chaitanya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chaitanyashastry@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Dataprovider.DataInsert@9629756]" name="teardown" is-config="true" duration-ms="0" started-at="2019-12-26T12:37:43 IST" finished-at="2019-12-26T12:37:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Dataprovider.DataInsert -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
